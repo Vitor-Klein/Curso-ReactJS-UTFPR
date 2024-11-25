@@ -23,3 +23,6 @@ Certifique-se de ter o seguinte instalado em sua máquina:
 
    ```bash
    cd /caminho/para/seu/diretorio
+3.Execute o comando abaixo para clonar o repositório:
+   ```bash
+   git clone https://github.com/Vitor-Klein/Curso-ReactJS-UTFPR.git
