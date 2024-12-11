@@ -1,0 +1,65 @@
+.backgroundContaienr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.catHead {
+  display: flex;
+  min-width: 500px;
+  max-width: 800px;
+  justify-content: space-between;
+}
+
+.leftCatEar,
+.rightCatEar {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: static;
+  margin-top: -90px;
+  position: static;
+}
+
+.leftCatEar {
+  border-width: 0 40px 50px 40px;
+  border-color: transparent transparent #353839 transparent;
+  left: calc(50% - 160px);
+}
+
+.rightCatEar {
+  border-width: 0 40px 50px 40px;
+  border-color: transparent transparent #353839 transparent;
+  right: calc(50% - 160px);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 500px;
+  max-width: 800px;
+  min-height: 400px;
+  background-color: #353839;
+  border-radius: 15px;
+  box-shadow: 10px 10px #353839 48;
+  position: relative;
+}
+
+.factButton {
+  width: 200px;
+  height: 50px;
+}
+
+.factText {
+  font-size: 20px;
+  text-align: center;
+  padding: 25px;
+  max-width: 500px;
+  height: 100px;
+}
